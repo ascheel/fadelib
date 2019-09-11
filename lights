@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd /cygdrive/c/Users/art/Dropbox/Programming/work_lights/fadecandy/bin
+./fcserver.exe ./fcserver.json &
+
+cd /cygdrive/c/Users/art/Dropbox/Programming/work_lights
+python lights.py
+
+
